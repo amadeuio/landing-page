@@ -43,7 +43,7 @@ body {
     padding: 100px 25vh 115px 25vh;
 }
 
-.left {
+.hero .left {
     margin-right: 50px;
 }
 
@@ -60,7 +60,7 @@ h1 {
     opacity: 0.8;
 }
 
-button {
+.hero button {
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
@@ -137,4 +137,47 @@ h2 {
     font-weight: bold;
     padding: 0 45vh;
     text-align: right;
+}
+
+/* action */
+
+.action {
+    padding: 95px 25vh;
+
+}
+
+.action-container {
+    background-color: #3882f6;
+    border-radius: 6px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+
+h3 {
+    color: #f9faf8;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.action p {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+
+}
+
+.action button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #e5e7eb;
+    border-radius: 7px;
+    padding: 8px 32px;
+    margin: 18px 0;
 }

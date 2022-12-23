@@ -30,7 +30,7 @@ body {
 .logo {
     color: #f9faf8;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 /* hero */
@@ -50,10 +50,10 @@ body {
 h1 {
     color: #f9faf8;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
-p {
+.hero p {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 400;
@@ -74,4 +74,42 @@ button {
 .hero img {
     width: 510px;
     height: 230px;
+}
+
+/* info */
+
+.info {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px 0;
+}
+
+.pics-container {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.small-pic-container {
+    width: 160px;
+}
+
+.info img {
+    border: 4px solid #3882f6;
+    border-radius: 14px;
+    width: 160px;
+    height: 160px;
+}
+
+.info p {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
 }

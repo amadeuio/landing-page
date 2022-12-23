@@ -33,4 +33,40 @@ body {
     font-weight: 700;
 }
 
+/* hero */
 
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 25vh 115px 25vh;
+}
+
+.left {
+    margin-right: 50px;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 7px;
+    padding: 8px 32px;
+    margin: 18px 0;
+}

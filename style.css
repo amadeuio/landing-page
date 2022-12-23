@@ -70,3 +70,8 @@ button {
     padding: 8px 32px;
     margin: 18px 0;
 }
+
+.hero img {
+    width: 510px;
+    height: 230px;
+}

@@ -181,3 +181,20 @@ h3 {
     padding: 8px 32px;
     margin: 18px 0;
 }
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+}
